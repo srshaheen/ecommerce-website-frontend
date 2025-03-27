@@ -1,0 +1,171 @@
+#single-page-describer {
+  background-color: #f9f1e7;
+  padding: 1.5rem 0;
+}
+
+.single-page-describe {
+  display: flex;
+  gap: 1rem;
+}
+
+#product-view {
+  padding-block: 3rem;
+}
+
+.product-view-left {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.uviewed-img {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.uviewed-img .img-container {
+  background: #f9f1e7;
+  padding: 0.2rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+}
+
+.viewed-img-container {
+  background-color: #f9f1e7;
+  display: flex;
+  place-content: center;
+}
+
+.product-right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.cutomer-review {
+  display: flex;
+  gap: 0.5rem;
+}
+.review-count {
+  padding-left: 0.5rem;
+  border-left: 1px solid #000000c5;
+}
+
+.size,
+.colors {
+  display: flex;
+  gap: 1rem;
+}
+
+.size-btn {
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  border: 0;
+  background-color: #f9f1e7;
+}
+
+.size-btn.active {
+  background-color: #b88e2f;
+  color: white;
+}
+
+.color-btn {
+  padding: 1rem;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.color-btn:nth-child(1) {
+  background: #816dfa;
+}
+.color-btn:nth-child(2) {
+  background: #000;
+}
+.color-btn:nth-child(3) {
+  background: #b88e2f;
+}
+
+.add-to-card-area {
+  display: flex;
+  gap: 1rem;
+}
+
+.add-to-card-area > * {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border: 1px solid #000000be;
+  background: none;
+  border-radius: 0.5rem;
+}
+
+.add-to-card-area .button-group {
+  display: flex;
+  background: none;
+  justify-content: space-around;
+}
+
+.button-group button {
+  border: 0;
+  background: 0;
+}
+
+.button-group input {
+  border: 0;
+  width: 30%;
+  text-align: center;
+}
+
+.product-right-content {
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.sku-category-tags {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.product-info {
+  display: flex;
+  gap: 2rem;
+}
+
+.product-info > * {
+  width: 100px;
+  justify-self: flex-start;
+}
+
+/* infomation */
+#description {
+  padding: 4rem 0;
+  border-top: 1px solid #00000062;
+}
+
+.information-switcher {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+.information {
+  padding: 2rem 8rem;
+}
+
+.information p:first-child {
+  padding-bottom: 1rem;
+}
+
+.information-switcher button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: #00000088;
+}
+
+.information-switcher button.active {
+  color: #000;
+}
