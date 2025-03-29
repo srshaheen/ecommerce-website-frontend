@@ -1,0 +1,49 @@
+#billing-section {
+  padding: 4rem 0;
+}
+
+#billing-section form label {
+  display: block;
+  padding-top: 1rem;
+}
+
+#billing-section form input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+#billing-section form input[type="email"] {
+  margin-bottom: 1rem;
+}
+
+.even-columns {
+  gap: 5rem;
+}
+
+.product-price input {
+  width: auto;
+}
+
+.product-price label {
+  display: inline;
+}
+
+form .even-columns {
+  gap: 1rem !important;
+}
+
+p {
+  padding: 1rem 0;
+}
+
+.product-price button {
+  cursor: pointer;
+  border: 0;
+  background: none;
+  padding: 0.4rem 4rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}

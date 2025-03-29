@@ -1,0 +1,49 @@
+#contact {
+  padding: 5rem 6rem;
+}
+
+.contact-title {
+  padding-bottom: 3rem;
+}
+
+.contact-title p {
+  padding: 0 15rem;
+}
+
+#contact label {
+  display: block;
+  padding-top: 1.5rem;
+}
+
+#contact input,
+textarea {
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  display: block;
+}
+
+#contact input[type="submit"] {
+  display: inline-block;
+  width: fit-content;
+  margin: 2rem 0;
+  padding: 0.8rem 2.5rem;
+  background: none;
+  border: 0;
+  background: #b88e2f;
+  color: white;
+  cursor: pointer;
+}
+
+.left {
+  margin-top: 1.5rem;
+}
+
+.left p {
+  padding-bottom: 2rem;
+}
+
+.left span {
+  display: block;
+}
