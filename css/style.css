@@ -761,4 +761,18 @@ address p {
   .copyright {
     text-align: center;
   }
+
+  .service-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .service {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }

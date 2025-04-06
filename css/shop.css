@@ -65,3 +65,9 @@
   background: #b88e2f;
   color: white;
 }
+
+@media (max-width: 40em) {
+  .shop-filter {
+    display: none;
+  }
+}
