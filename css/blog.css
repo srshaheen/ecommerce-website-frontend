@@ -1,0 +1,7 @@
+#blog {
+  display: flex;
+}
+
+.blog img {
+  width: 300px;
+}

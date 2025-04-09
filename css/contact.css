@@ -47,3 +47,17 @@ textarea {
 .left span {
   display: block;
 }
+
+@media (max-width: 40em) {
+  #contact {
+    padding: 1rem 2rem;
+  }
+
+  .contact-title p {
+    padding: 0;
+  }
+
+  .left {
+    text-align: center;
+  }
+}
